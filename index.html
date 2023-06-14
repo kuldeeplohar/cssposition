@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssposition</title>
+    <style>
+        div#parent{
+            height: 600px;
+            width: 600px;
+            border:5px solid black;
+            position: relative;
+            margin:auto
+
+        }
+        div#child1{
+            height:200px;
+            width:200px;
+            background-color: red;
+            position: absolute;
+            bottom: 0px;
+            right:0px
+        }
+        div#child2{
+            height:200px;
+            width:200px;
+            background-color: blue;
+            position: absolute;
+            bottom: 0px;
+            left:0px
+        }
+        div#child3{
+            height:200px;
+            width:200px;
+            background-color: violet;
+            position: absolute;
+            top: 0px;
+            left:0px
+        }
+        div#child4{
+            height:200px;
+            width:200px;
+            background-color: gold;
+            position: absolute;
+            top: 0px;
+            right:0px
+        }
+        </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="child1">.</div>
+        <div id="child2">.</div>
+        <div id="child3">.</div>
+        <div id="child4">.</div>
+    </div>
+</body>
+</html>
